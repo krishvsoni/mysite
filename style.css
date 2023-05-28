@@ -3,51 +3,9 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
+  background: linear-gradient(to bottom, #4b6cb7, #182848);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
-header {
-  background-color: #333;
-  color: #fff;
-  padding: 20px;
-  text-align: center;
-}
-
-nav ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  background-color: #f2f2f2;
-  text-align: center;
-}
-
-nav ul li {
-  display: inline-block;
-  margin-right: 10px;
-}
-
-nav ul li a {
-  display: block;
-  padding: 10px;
-  text-decoration: none;
-  color: #333;
-}
-
-nav ul li a:hover {
-  background-color: #333;
-  color: #fff;
-}
-
-main {
-  padding: 20px;
-}
-
-section {
-  margin-bottom: 20px;
-}
-
-footer {
-  background-color: #333;
-  color: #fff;
-  padding: 20px;
-  text-align: center;
-}
+/* Rest of your CSS styles */
