@@ -1,27 +1,70 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Portfolio</title>
+  <title>Krish Soni - Portfolio</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <script src="script.js" defer></script>
 </head>
 <body>
-  <h1>My Portfolio</h1>
-  <p>This is my portfolio website. I use it to showcase my work and skills.</p>
-  <p>Here are some of my projects:</p>
-  <ul>
-    <li>A website that allows users to book appointments with doctors.</li>
-    <li>A mobile app that helps users find parking spots.</li>
-    <li>A web application that helps businesses manage their inventory.</li>
-  </ul>
-  <p>I am also proficient in the following technologies:</p>
-  <ul>
-    <li>HTML</li>
-    <li>CSS</li>
-    <li>Python</li>
-    <li>Javascript</li>
-    <li>Django</li>
-  </ul>
-  <p>If you are interested in working with me, please contact me at <a href="mailto:email@address.com">krishsoni1@icloud.com</a>.</p>
+  <header>
+    <h1>Krish Soni</h1>
+    <h2>Developer | Microsoft Learn Student Ambassador</h2>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section id="about">
+      <h2>About Me</h2>
+      <p>Write a brief introduction about yourself, your skills, and experiences.</p>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="project">
+        <h3>Project 1</h3>
+        <p>Description of the project.</p>
+      </div>
+
+      <div class="project">
+        <h3>Project 2</h3>
+        <p>Description of the project.</p>
+      </div>
+
+      <!-- Add more project sections as needed -->
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <form id="contact-form">
+        <div>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+        <div>
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div>
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" required></textarea>
+        </div>
+        <div>
+          <button type="submit">Send Message</button>
+        </div>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 Krish Soni. All rights reserved.</p>
+  </footer>
 </body>
 </html>
